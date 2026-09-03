@@ -5,16 +5,16 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Multiplayer Chess Platform",
-    category: "Full-Stack, OOPs",
-    tools: "React, Node.js, WebSockets, TypeScript, PostgreSQL, Prisma",
+    title: "FinBridge AI",
+    category: "Full-Stack, AI/ML, FinTech",
+    tools: "React, Vite, Node.js, Express, Gemini 2.5 Pro, ChromaDB, SQLite, AJV",
     description: [
-      "Developed a real-time multiplayer chess application enabling live gameplay using React, Node.js, WebSockets, and TypeScript.",
-      "Implemented object-oriented chess logic, including move validation, rule enforcement, and game state management.",
-      "Built backend storage using PostgreSQL and Prisma, and integrated OAuth authentication with an ELO rating system.",
+      "AI-powered BRD-to-Config generator that converts Business Requirement Documents into secure, production-ready API gateway configurations for India's Core Banking ecosystem.",
+      "Implements PII detection & masking (Aadhaar, PAN, phone, bank accounts) before LLM processing, with RAG-based generation using ChromaDB and Google Gemini 2.5 Pro.",
+      "Includes schema validation, pre-built integration templates (CIBIL, UIDAI, Razorpay), full audit logging, and compliance with RBI 2025 & DPDP Act standards.",
     ],
-    image: "/images/Solidx.png",
-    link: "https://github.com/Archit9tyagi",
+    image: "/images/finbridge.png",
+    link: "https://github.com/Archit9tyagi/FinBridge",
   },
   {
     title: "AcadVault – Notes Sharing Platform",
@@ -25,7 +25,7 @@ const projects = [
       "Implemented user authentication, PDF upload/download, ratings, and review features.",
       "Built backend logic using Django ORM and form validation, and deployed the platform on Render.",
     ],
-    image: "/images/radix.png",
+    image: "/images/acadvault.jpg",
     link: "https://github.com/Archit9tyagi",
   },
   {
@@ -37,7 +37,7 @@ const projects = [
       "Built predictive models using historical datasets to forecast match outcomes.",
       "Implemented data preprocessing, feature engineering, and model evaluation pipelines using Python ML libraries.",
     ],
-    image: "/images/Solidx.png",
+    image: "/images/ipl_prediction.jpg",
     link: "https://github.com/Archit9tyagi",
   },
 ];

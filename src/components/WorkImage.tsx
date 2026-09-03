@@ -36,8 +36,22 @@ const WorkImage = (props: Props) => {
             <MdArrowOutward />
           </div>
         )}
-        <img src={props.image} alt={props.alt} />
-        {isVideo && <video src={video} autoPlay muted playsInline loop></video>}
+        <div className="browser-frame">
+          <div className="browser-frame-header">
+            <div className="browser-dots">
+              <span className="browser-dot red"></span>
+              <span className="browser-dot yellow"></span>
+              <span className="browser-dot green"></span>
+            </div>
+            <div className="browser-url-bar">
+              <span>{props.alt || "Project Preview"}</span>
+            </div>
+          </div>
+          <div className="browser-frame-body">
+            <img src={props.image} alt={props.alt} loading="lazy" />
+            {isVideo && <video src={video} autoPlay muted playsInline loop></video>}
+          </div>
+        </div>
       </a>
     </div>
   );
